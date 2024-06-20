@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom'
+import { Provider } from 'react-redux';
+import store from './Store/Store';
+import '../src/Assets/css/mediaquery.css'
+import '../src/Assets/css/flaticon.css'
+import '../src/Assets/css/cartsitem.css'
+import '../src/disable'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <Router>
+        <App />
+      </Router>
+    </Provider>
   </React.StrictMode>
 );
 

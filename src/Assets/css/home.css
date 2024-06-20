@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.va {
+    vertical-align: middle;
+}
+
+/* Home CSS */
+
+/* SECTION 1 */
+
+.section1-img {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.section1-div {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.section1-div h4 {
+    color: #fac564;
+    text-align: center;
+    font-family: "Nothing You Could Do", cursive;
+}
+
+.section1-div h1 {
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Slab", serif;
+}
+
+.section1-div p {
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.section1-div .sec1-btn1 {
+    color: #000;
+    background-color: #fac564;
+    border: 2px solid #fac564;
+    border-radius: 0%;
+}
+
+.section1-div .sec1-btn1:hover {
+    color: #fac564;
+    background-color: transparent;
+    border: 2px solid #fac564;
+    border-radius: 0%;
+}
+
+.section1-div .sec1-btn2 {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0%;
+}
+
+.section1-div .sec1-btn2:hover {
+    color: #000;
+    background-color: #fac564;
+    border: 2px solid #fac564;
+    border-radius: 0%;
+}
+
+@media(max-width:1200px) {
+    .section1-div {
+        top: 50%;
+        left: 20%;
+    }
+}
+
+@media(max-width:992px) {
+    .section1-div {
+        top: 50%;
+        left: 12%;
+    }
+}
+
+@media(max-width:768px) {
+    .section1-div {
+        top: 50%;
+        left: 3%;
+    }
+}
+
+@media(max-width:576px) {
+    .section1-div {
+        top: 35%;
+        left: 0%;
+    }
+}
+
+/* SECTION 1  END */
+
+/* SECTION 2  */
+
+.sec2-h5 {
+    color: #fff;
+    font-family: "Josefin Slab", serif;
+}
+
+.sec2-p {
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec2-icons {
+    color: #fac564;
+}
+
+.sec2-mt {
+    margin-top: 2.5rem;
+}
+
+.sec2-icon-it {
+    margin: 10px 15px;
+    border-color: #20439b;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 18px;
+    background-color: rgba(69, 68, 68, 0.05);
+    color: #fff;
+}
+
+.sec2-icon-f {
+    margin: 10px 15px;
+    border-color: #283453;
+    border-radius: 50%;
+    padding: 20px 23px;
+    font-size: 18px;
+    margin-left: -0.25rem;
+    background-color: rgba(69, 68, 68, 0.05);
+    color: #fff;
+}
+
+/* SECTION 2  END */
+
+/* SECTION 3 */
+
+.sec3-h2 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec3-p {
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+    justify-content: justify;
+}
+
+.sec3-icon {
+    color: #fac564;
+}
+
+.sec3-span {
+    color: #fac564 !important;
+}
+
+.sec3-img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec3-bgimg {
+    background-image: url('/src/Assets/Fake-data/Image/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sec3-maindiv {
+    padding-left: 4rem;
+}
+
+.sec3-div1 {
+    margin-top: 8.5rem;
+}
+
+@media(max-width:1200px) {
+    .sec3-maindiv {
+        padding-left: 2rem;
+    }
+
+    .sec3-div1 {
+        margin-top: 2.5rem;
+    }
+}
+
+@media(max-width:576px) {
+    .sec3-maindiv {
+        padding-left: 2rem;
+    }
+
+    .sec3-div1 {
+        margin-top: 2rem;
+    }
+}
+
+/* SECTION 3  END */
+
+/* SECTION 4  OUR SERVICES */
+
+.sec4-bgimg {
+    background-image: url('/src/Assets/Fake-data/Image/bg2.png');
+    background-repeat: repeat;
+    /* height: 75vh; */
+}
+
+.sec4-h2 {
+    color: #000;
+    font-family: "Josefin Slab", serif;
+}
+
+.sec4-h3 {
+    color: #000;
+    font-family: "Josefin Slab", serif;
+}
+
+.sec4-p {
+    color: #5C3D03;
+    font-family: "Poppins", sans-serif;
+    justify-content: justify;
+}
+
+.flaticon-diet::before {
+    color: #c98609;
+    padding: 25px 25px;
+    border: 2px solid #bf7e06;
+    background-color: transparent;
+}
+
+.flaticon-diet:hover::before {
+    color: #fff;
+    background-color: #ffb630;
+}
+
+.flaticon-bicycle::before {
+    color: #c98609;
+    padding: 25px 25px;
+    border: 2px solid #bf7e06;
+    background-color: transparent;
+}
+
+.flaticon-bicycle:hover::before {
+    color: #fff;
+    background-color: #ffb630;
+}
+
+.flaticon-pizza-1::before {
+    color: #c98609;
+    padding: 25px 25px;
+    border: 2px solid #bf7e06;
+    background-color: transparent;
+}
+
+.flaticon-pizza-1:hover::before {
+    color: #fff;
+    background-color: #ffb630;
+}
+
+/* SECTION 4  END */
+
+/* SECTION 5  PRODUCT DETAILS*/
+
+.sec5-main {
+    background-color: #fac564;
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+.sec5-btn {
+    border: 2px solid #000;
+    padding: 10px 30px;
+    color: #fac564;
+    background-color: #000;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec5-btnall {
+    padding: 10px 30px;
+    color: #000;
+    background-color: transparent;
+    border: none;
+}
+
+.sec5-logobtn {
+    border: none;
+    padding: 10px;
+    background-color: #fac564;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec5-logobtnactive {
+    color: #fac564;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec5-logo {
+    width: 25px;
+    background-color: transparent;
+}
+
+.sec5-h1 {
+    color: #fff;
+    font-family: "Josefin Slab", serif;
+}
+
+
+/* ProductCard CSS */
+
+.bgimg {
+    background-image: url('/src/Assets/Fake-data/Image/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.product-card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #5C3D03;
+}
+
+.product-card:hover {
+    border: 1px solid #fac564;
+}
+
+.product-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.product-title {
+    color: #fff;
+    font-family: "Josefin Slab", serif;
+}
+
+.product-desc {
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+}
+
+.product-desc:hover {
+    color: #fff;
+}
+
+.product-price {
+    color: #fac564;
+    font-family: "Poppins", sans-serif;
+}
+
+.product-btn {
+    padding: 5px 10px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.product-btn:hover {
+    color: #000;
+    background-color: #fac564;
+    border: 1px solid #fac564;
+}
+
+@media(max-width:1200px) {
+    .product-img {
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+    }
+}
+
+@media(max-width:576px) {
+    .product-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
+
+/* ProductCard CSS END */
+
+/* SECTION 5  END */
+
+/* SECTION 6   RECENT BOLG*/
+
+.sec6-bgimg {
+    background-image: url('/src/Assets/Fake-data/Image/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sec6-img {
+    display: block;
+    width: 100%;
+    height: 280px;
+}
+
+.sec6-h3 {
+    color: #fff;
+    font-family: "Josefin Slab", serif;
+}
+
+.sec6-p {
+    color: #808080;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Our Chef css */
+.chef-card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #5C3D03;
+}
+
+.chef-card:hover {
+    border: 1px solid #fac564;
+}
+
+.sec6-cname {
+    color: #fac564;
+    font-size: 15px;
+    font-family: "Josefin Slab", serif;
+}
+
+.sec6-span {
+    color: #ccc;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* SECTION 6  END */
+
+/* Home CSS End*/
+
+

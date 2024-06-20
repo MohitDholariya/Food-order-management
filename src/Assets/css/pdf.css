@@ -1,0 +1,88 @@
+.pdf_section {
+    width: 50%;
+    margin: 2em auto;
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Ensure padding doesn't increase width */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.14);
+    @media screen and (max-width: 524px) {
+        width: 380px;
+    }
+}
+
+.pdf_content {
+    margin: 0 auto; /* Center content horizontally within the PDF */
+    max-width: 800px; /* Limit the maximum width of the content */
+}
+
+.pdf_header {
+    text-align: center; /* Center header text */
+}
+
+.pdf_table {
+    margin-bottom: 20px; /* Add margin to separate table from other content */
+}
+
+.pdf_total {
+    margin-top: 20px; /* Add margin to separate total section from other content */
+}
+
+
+.pdf_section h3 {
+    margin-bottom: 0.3em;
+    color: #37474f;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.pdf_section h5 {
+    margin-bottom: 0.3em;
+    color: #37474f;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.pdf_section h5 span {
+    color: #37474f;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.pdf_section .NItem_NQty {
+    color: #37474f;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.pdf_section .NItem_NQty span {
+    color: #37474f;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.pdf-btn {
+    padding: 15px 23px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fac564;
+    border-radius: 15px;
+    transition: all .4s;
+    margin-top: 30px;
+
+    @media screen and (max-width:480px) {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
+
+.pdf-btn:hover {
+    /* background-color: #fff;
+    color: #fac564; */
+    opacity: .8;
+    background-position: 83%;
+
+    @media screen and (max-width: 576px) {
+        background-position: 88%;
+    }
+}

@@ -1,0 +1,13 @@
+.contact-img {
+    background-image: url('/src/Assets/Fake-data/Image/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.send-btn{
+    color: #000;
+    background-color: #fac564;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,92 @@
+.search-btn{
+    padding: 10px 20px;
+    color: #000;
+    background-color: #fac564;
+    border: 1px solid #fac564;
+    border-radius: 5px;
+}
+
+.filter{
+    color: #000;
+    background-color: #fac564;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+/* Pagination CSS */
+
+.paginationbtns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .paginationbtns ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .paginationbtns li {
+    margin: 0 5px;
+    list-style-type: none;
+  }
+  
+  .paginationbtns li a {
+    padding: 8px 12px;
+    border: 1px solid #fac564;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #fac564;
+    /* list-style-type: none; */
+  }
+  
+  .paginationbtns li a:hover {
+    background-color: #fff;
+    color: #fac564 !important;
+  }
+  /* .paginationbtns li a:focus {
+    background-color: #fff;
+    color: #fac564 !important;
+  } */
+  .paginationbtns ul li.selected a{
+    background-color: #fff;
+    color: #fac564 !important;
+}
+
+.pagination {
+  justify-content: center;
+}
+.pagination_btn ul li.previous a,
+.pagination_btn ul li.next a{
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #fac564;
+  color: #000 !important;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.pagination_btn ul li a{
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #fac564;
+  color: #000 !important;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 17px;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+.pagination_btn ul li a:hover{
+  background: transparent;
+  border: 1px solid #fac564;
+  color: #fac564 !important;
+}
+.pagination_btn ul li.selected a{
+  background: transparent;
+  border: 1px solid #fac564;
+  color: #fac564 !important;
+}

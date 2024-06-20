@@ -1,0 +1,127 @@
+.bgimg {
+    background-image: url('/src/Assets/Fake-data/Image/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.food-image img{
+    margin-left: 125px;
+}
+@media(max-width:1200px) {
+    .food-image img{
+        margin-left: 85px;
+    }
+}
+@media(max-width:992px) {
+    .food-image img{
+        margin-left: 50px;
+        width: 250px !important;
+    }
+    .food-image2 img{
+        width: 100px !important;
+    }
+    .food-detail{
+        padding-left: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .food-image img{
+        margin-left: 25px;
+        width: 200px !important;
+    }
+    .food-image2 img{
+        width: 75px !important;
+    }
+    .food-detail{
+        padding-left: 100px;
+    }
+}
+
+@media(max-width:576px) {
+    .food-image img{
+        margin-left: 100px;
+        width: 300px !important;
+    }
+    .food-image2 {
+        margin: 0 0 0 75px;
+    }
+    .food-image2 img{
+        width: 100px !important;
+    }
+    .food-detail{
+        padding-left: 100px;
+    }
+}
+@media(max-width:450px) {
+    .food-image img{
+        margin-left: 85px;
+        width: 250px !important;
+    }
+    .food-image2 {
+        margin-left: 10px;
+    }
+    .food-image2 img{
+        width: 8-px !important;
+    }
+    .food-detail{
+        padding-left: 100px;
+    }
+}
+@media(max-width:300px) {
+    .food-image img{
+        margin-left: 45px;
+        width: 200px !important;
+    }
+    .food-image2 {
+        margin: 0px;
+    }
+    .food-image2 img{
+        width: 76px !important;
+    }
+    .food-detail{
+        padding-left: 100px;
+    }
+}
+
+.addcart-btn{
+    padding: 10px 20px;
+    color: #000;
+    background-color: #fac564;
+    border: 1px solid #fac564;
+    border-radius: 5px;
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    font-size: 15px;
+}
+.input:focus{
+    background-color: #f4c8c8;
+    outline: none;
+
+}
+.fooddetail-bg{
+    background-color: #f4c8c8;
+}
+
+
+/* {Description & Review} */
+
+.tab .tabs{
+    padding: 12px 22px;
+    background-color: #fff;
+    color: #fac564;
+    border: 2px solid #fac564;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.tab .tabs:hover ,
+.tab .tabs_active {
+    background-color: #fac564;
+    color: #fff;
+}

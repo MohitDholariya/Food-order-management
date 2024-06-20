@@ -1,0 +1,95 @@
+/* Counter CSS */
+
+.counter-img {
+    background-image: url('/src/Assets/Fake-data/Image/cout-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    height: 300px;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1b1b1b;
+    z-index: 1;
+    opacity: .8;
+}
+
+.counter-div1 {
+    margin-top: 75px;
+}
+
+.counter-div2 {
+    margin-top: 75px;
+}
+
+.number {
+    font-weight: 400;
+    font-size: 30px;
+    color: #fac564;
+}
+
+.counter-span {
+    color: #bfbfbf;
+}
+
+.flaticon-medal::before {
+    color: #c98609;
+    padding: 25px 25px;
+    border: 2px solid #ef9e0a;
+    background-color: transparent;
+}
+
+.flaticon-medal:hover::before {
+    color: #fff;
+    background-color: #ffb630;
+}
+
+.flaticon-laugh::before {
+    color: #c98609;
+    padding: 25px 25px;
+    border: 2px solid #bf7e06;
+    background-color: transparent;
+}
+
+.flaticon-laugh:hover::before {
+    color: #fff;
+    background-color: #ffb630;
+}
+
+.flaticon-chef::before {
+    color: #c98609;
+    padding: 25px 25px;
+    border: 2px solid #bf7e06;
+    background-color: transparent;
+}
+
+.flaticon-chef:hover::before {
+    color: #fff;
+    background-color: #ffb630;
+}
+
+
+@media(max-width:576px) {
+    .counter-img {
+        height: 120vh;
+    }
+
+    .counter-div1 {
+        margin-top: 50px;
+    }
+
+    .counter-div2 {
+        margin-top: 50px;
+    }
+}
+
+
+/* Counter CSS End*/

@@ -1,0 +1,145 @@
+/*================= Carts_section ==========================*/
+
+.carts_section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    background-color: #00000090;
+    z-index: 9998;
+    display: grid;
+    top:0;
+}
+
+.carts_section .carts{
+    place-self: center;
+    width: max(23vw,700px);
+    height: 70vh; 
+    overflow-y: auto;
+    color: #808080;
+    background-image: linear-gradient(to bottom right, #ebe6b9 , #eca829);  
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.5s !important;
+    @media screen and (max-width:1080px) {
+        width: 400px;
+    }
+    @media screen and (max-width:768px) {
+        width: 40%;
+    }
+}
+
+
+.carts_section .carts.active_show{
+    transform: translateX(0);
+    opacity: 1;
+}
+.carts_section .carts .carts_close_btn{
+    padding: 10px 20px;
+    background-color: #fac564;
+    color: #000;
+}
+.carts_section .carts_close_btn h4{
+    font-weight: 600;
+}
+.carts_section .carts_close_btn span i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.carts_section .carts_item_list {
+    height: calc(100vh - 155px);
+    overflow-y: auto;
+}
+.carts_section .carts_Button {
+    padding: 10px 20px;
+    background-color: #fac564;
+    color: #fff;
+}
+.carts_section .carts_Button h6{
+    font-weight: 600;
+}
+.carts_section .carts_Button h6 span{
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+.carts_section .carts_Button button{
+    padding: 8px 20px;
+    border: 2px solid #000;
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fac564;
+    cursor: pointer;
+    transition: all .4s;
+}
+.carts_section .carts_Button button:hover{
+    color: #000;
+    background-color: #fac564;
+    border: 3px solid #000;
+}
+
+
+/*============ carts_items_section ==================*/
+.carts_items_section .carts_items   {
+    padding: 10px;
+}
+.carts_items_section .carts_items   {
+    padding: 10px;
+    border-bottom: 1px solid #37474f;
+}
+.carts_items_section .delete_btn span i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.carts_items_section .carts_items_info{
+    gap: 5;
+    @media screen and (max-width:576px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+}
+.carts_items_section .carts_items_info img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    @media screen and (max-width:676px) {
+        width: 40%;
+        height: 40%;
+    }
+    @media screen and (max-width:576px) {
+        width: 50%;
+        height: 50%;
+    }
+}
+.carts_items_section .carts_product_info h5{
+    color: #37474f;
+    font-weight: 600;
+}
+.carts_items_section .carts_product_info p{
+    color: #37474f;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.carts_items_section .carts_product_info p span{
+    font-size: 1.3rem;
+    vertical-align: middle;
+}
+.carts_items_section .carts_product_info .increment_decremet{
+    background-color: #fac564;
+    padding: 5px;
+    border-radius: 5px;
+}
+.carts_items_section .increment_decremet .increment,
+.carts_items_section .increment_decremet .decrement{
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.carts_items_section .increment_decremet .quantity{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
